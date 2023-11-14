@@ -29,30 +29,20 @@ section {
     align-items: center;
 }
 
-.logo {
+.logo_principal {
     max-width: 20px; 
     margin-right: 10px; 
 }
 
 
-/* Pantalla de inicio */
 
-
-.main-section {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    padding: 40px;
-}
-
-
-.inicio_contrato img {
-    text-align: right;
-    max-width: 100%; /* Ajusta el tamaño de las imágenes */
-}
-
-.inicio_logo img {
-    text-align: left;
-    max-width: 60%; /* Ajusta el tamaño de las imágenes */
-}
-
+  .logo {
+    max-width: 100px; /* Ajusta el tamaño según tus necesidades */
+    height: auto;
+    display: block;
+    margin: 0 auto; /* Centra la imagen del logo en la columna */
+  }
+  .gato {
+    max-width: 100%; /* La imagen del gato ocupará el ancho completo de su contenedor */
+    height: auto;
+  }
