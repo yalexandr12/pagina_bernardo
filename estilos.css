@@ -4,13 +4,13 @@ p {
 }
 
 header {
-    height: 20px;
-    background-color: aquamarine;
+    height: 40px;
+    background-color: rgb(94, 216, 247);
 }
 
 footer {
     height: 50px;
-    background-color: aquamarine;
+    background-color: rgb(115, 158, 214);
 }
 
 .contenido a {
@@ -30,19 +30,38 @@ section {
 }
 
 .logo_principal {
-    max-width: 20px; 
-    margin-right: 10px; 
+    max-width: 50px; 
+    margin-right: auto; 
 }
 
-
-
-  .logo {
-    max-width: 100px; /* Ajusta el tamaño según tus necesidades */
-    height: auto;
-    display: block;
-    margin: 0 auto; /* Centra la imagen del logo en la columna */
+/* Establecer tamaño de texto para dispositivos pequeños (menos de 576px) */
+@media (max-width: 575.98px) {
+    .small-text {
+      font-size: 14px; /* Puedes ajustar el tamaño según tus preferencias */
+    }
   }
-  .gato {
-    max-width: 100%; /* La imagen del gato ocupará el ancho completo de su contenedor */
-    height: auto;
+
+
+  .blue-box {
+    background-color: #8dc2f1; /* Color azul claro */
+    padding: 20px;
+    margin-top: 20px;
+  }
+
+  .circular-image {
+    border-radius: 60%; /* Hacer la imagen circular */
+    max-width: 200px;
+    margin-left: 40px; /* Margen a la izquierda de la imagen */
+    margin-right: 30px; /* Margen a la derecha de la imagen */
+  }
+
+  .blue-box p {
+    margin-bottom: 5px; /* Espacio entre el texto y la imagen */
+    margin-left: 40px; /* Margen a la izquierda del texto */
+    margin-right: 15px; /* Margen a la derecha del texto */
+  }
+
+  .small-text {
+    font-size: 12px; /* Tamaño de texto más pequeño */
+    color: #555; /* Color de texto más claro */
   }
