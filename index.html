@@ -13,72 +13,204 @@
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
         <title>Mi Proyecto con Bootstrap</title>
 
+        <!-- Animate.css -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+
+        <!-- jQuery -->
+        <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+
+        <script src="animaciones.js"></script>
+
     </head>
     <body>
         <header>
             <section>
-                <div class="contenido">
+                <div class="contenido" style="text-align: left;">
                     <img src="gato.jpg" alt="Logo" class="logo_principal">
-                    <a href="#" style="margin-left: auto;">Contacto</a>
 
                 </div>
             </section>
         </header>
 
         <div class="d-flex justify-content-between align-items-start flex-wrap">
-          <div class="text-center" style="max-width: 30%; margin-top: 20px; margin-left: 20px;">
-            <img src="gato.jpg" class="img-fluid rounded" alt="logo" style="max-width: 100%; margin-right: 10px;">
-            <p class="mt-2">¡Es momento de conseguir nuevos clientes!</p>
-          </div>
-          <div class="text-center" style="max-width: 40%; margin-top: 0;">
-            <img src="gato.jpg" class="img-fluid rounded" alt="contrato" style="max-width: 100%;">
-          </div>
-        </div>
-
-
-
-        <div class="blue-box d-flex align-items-center justify-content-center">
-          <img src="gato.jpg" class="circular-image mr-3" alt="círculo">
-          <div class="text-center">
-            <p>Potencializa los resultados de tu negocio con campañas digitales sólidas y efectivas </p>
-            <p class="small-text">Es más fácil de lo que piensas</p>
-          </div>
+            <div class="text-center" style="max-width: 30%; margin-top: 20px; margin-left: 20px;">
+                <img src="gato.jpg" class="img-fluid rounded" alt="logo" style="max-width: 100%; margin-right: 10px;">
+                <p class="mt-3" style="font-size: 24px; line-height: 1.4;">¡Es momento de conseguir nuevos clientes!</p>
+            </div>
+            <div class="text-center" style="max-width: 26%; margin-top: 20px;"> <!-- Ajuste de margen-top aquí -->
+                <img src="Contrato.png" class="img-fluid rounded" alt="contrato" style="max-width: 100%; max-height: 100%;">
+            </div>
         </div>
         
         
+
+
+        <div class="container">
+            <div class="blue-box rounded p-3 mx-sm-1 animate__animated animate__fadeIn">
+                <div class="d-flex align-items-center">
+                  <img src="imagen_circulo.png" class="circular-image mr-3" alt="círculo">
+                  <div class="text-center">
+                    <p class="mb-0">Potencializa los resultados de tu negocio con campañas digitales sólidas y efectivas</p>
+                    <p class="small-text mb-0">Es más fácil de lo que piensas</p>
+                  </div>
+                </div>
+              </div>
+          
+            <div class="text-right mt-2 ml-auto" id="animated-button" style="opacity: 0;">
+              <button type="button" class="btn btn-primary">Mi Botón</button>
+            </div>
+          </div>
+               
         
-          <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    
+          <div class="container mb-4 text-center">
+            <h2 class="font-weight">Beneficios de crear campañas en Google ADS</h2>
+          
+            <div class="d-inline-block bg-light mb-4 mx-4"> <!-- Agregado el margen horizontal -->
+              <div class="card" style="width: 18rem;">
+                <img src="gato.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+              </div>
+            </div>
+          
+            <div class="d-inline-block bg-light mb-4 mx-4"> <!-- Agregado el margen horizontal -->
+              <div class="card" style="width: 18rem;">
+                <img src="gato.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+              </div>
+            </div>
+          
+            <div class="d-inline-block bg-light mb-4 mx-4"> <!-- Agregado el margen horizontal -->
+              <div class="card" style="width: 18rem;">
+                <img src="gato.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="container text-center mb-4">
+            <h2 class="font-weight-bold">Campañas que ofrecemos</h2>
+          
+            <div class="d-inline-block shadow bg-light mb-2">
+              <div class="card" style="width: 18rem;">
+                <img src="gato.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Campañas de busqueda</h5>
+                </div>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">Descripción</li>
+                  <li class="list-group-item">A second item</li>
+                </ul>
+              </div>
+            </div>
+          
+            <div class="d-inline-block shadow bg-light mb-2 ml-4">
+              <div class="card" style="width: 18rem;">
+                <img src="gato.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Campañas de display</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">An item</li>
+                  <li class="list-group-item">A second item</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="mt-4 text-center">
+            <h3 class="font-weight">¿Qué necesitas?</h3>
+            <p class="small-text">Yo puedo ayudarte!</p>
+          
+            <div class="mt-3">
+              <button type="button" class="btn btn-primary btn-lg px-xl-5 mr-2">Consultoría de campañas</button>
+              <button type="button" class="btn btn-secondary btn-lg px-xl-5">Creación de campañas</button>
+            </div>
+          </div>
+          
+          <div class="container mt-4 mb-4">
+            <div class="row">
+              <div class="col-md-6 order-md-first d-flex justify-content-center">
+                <img src="cantactanos.jpeg" class="img-fluid" alt="telefon">
+              </div>
+          
+              <div class="col-md-6 mt-4">
+                <form>
+                  <div class="mb-3">
+                    <label for="nombre" class="form-label">Nombre</label>
+                    <input type="text" class="form-control" id="nombre" placeholder="">
+                  </div>
+                  <div class="mb-3">
+                    <label for="correo" class="form-label">Correo electrónico</label>
+                    <input type="email" class="form-control" id="correo" placeholder="name@example.com">
+                  </div>
+                  <div class="mb-3">
+                    <label for="exampleFormControlTextarea1" class="form-label">Mensaje</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                  </div>
+                  <button type="submit" class="btn btn-primary">Enviar</button>
+                </form>
+              </div>
+            </div>
+          </div>
+          
+        
+          
+          <div class="container mt-4">
+            <div class="row">
+              <!-- Sección con cuadro azul -->
+              <div class="col-md-12 bg-primary text-white p-4 mb-4">
+                <div class="row">
+                  <!-- Imagen a la derecha -->
+                  <div class="col-md-6 order-md-last d-flex justify-content-center align-items-center">
+                    <img src="berny.jpg" class="img-fluid" alt="Imagen a la derecha">
+                  </div>
+                  
+                  <!-- Título y descripción a la izquierda -->
+                  <div class="col-md-6">
+                    <h3 class="font-weight-bold mb-3">Te cuento más sobre mí</h3>
+                    <p>Mi nombre es [Tu Nombre], y estoy aquí para ayudarte. Soy [tu descripción], y me apasiona [tu pasión o área de expertise]. Estoy comprometido/a a proporcionar soluciones efectivas y personalizadas para satisfacer tus necesidades.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <footer class="bg-info text-light text-center mt-4">
+            <div class="container">
+              <div class="row">
+                <div class="col-md-4">
+                  <img src="berny.jpg" class="img-fluid" alt="Logo">
+                </div>
+                <div class="col-md-4">
+                  <p>Especialistas en la implementación de campañas SEM y PPC para la generación de prospectos calificados a través de Google ADS.</p>
+                </div>
+                <div class="col-md-4">
+                  <p>berni@gmail.com</p>
+                </div>
+              </div>
+            </div>
+          </footer>
+          
+
+
+
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
           <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
           <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 
           <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
           <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-dpniJ/fDm8a93iQzGz2f+qU/cNlKKUGKqq6SN5cdSB9GvAVu8Qr9E9s8feh8A44J" crossorigin="anonymous"></script>
           <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8sh+WyWk9H2bYz0qBixxj1xs3fpIjN7JRM" crossorigin="anonymous"></script>
-        </body>
-        </html>
 
-        
-        
-        
-
-
-
-
-
-        <div class="mb-3">
-            <label for="exampleFormControlInput1" class="form-label">Email address</label>
-            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
-          </div>
-          <div class="mb-3">
-            <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
-            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-          </div>
-        
-        <script src="" async defer></script>
-
-        <footer>
-            Especialistas en la implementación de campañas SEM y PPC para la generaciòn de 
-            prospectos calificados a traves de Google ADS.
-        </footer>   
     </body>
 </html>

@@ -1,6 +1,7 @@
-p {
-    font-family: Arial;
-    font-size: 2em;
+@media (max-width: 767px) {
+    p {
+        font-size: 20px; /* Tamaño de la fuente más pequeño para dispositivos móviles */
+    }
 }
 
 header {
@@ -8,10 +9,6 @@ header {
     background-color: rgb(94, 216, 247);
 }
 
-footer {
-    height: 50px;
-    background-color: rgb(115, 158, 214);
-}
 
 .contenido a {
     margin-left: auto;
@@ -64,4 +61,11 @@ section {
   .small-text {
     font-size: 12px; /* Tamaño de texto más pequeño */
     color: #555; /* Color de texto más claro */
+  }
+
+  .imagen-telefono {
+    border-radius: 60%; /* Hacer la imagen circular */
+    max-width: 200px;
+    margin-left: 40px; /* Margen a la izquierda de la imagen */
+    margin-right: 30px; /* Margen a la derecha de la imagen */
   }
