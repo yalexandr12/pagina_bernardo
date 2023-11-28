@@ -4,11 +4,19 @@
     }
 }
 
-header {
-    height: 40px;
-    background-color: rgb(94, 216, 247);
+@media (max-width: 768px) {
+  /* Agrega reglas de estilo específicas para pantallas más pequeñas si es necesario */
 }
 
+body {
+  font-family: 'Concert One', cursive;
+}
+
+header {
+  background-color: #023E8A;
+  /* Puedes ajustar otros estilos según tus preferencias */
+  padding: 10px; /* Agregar espacio interno si es necesario */
+}
 
 .contenido a {
     margin-left: auto;
