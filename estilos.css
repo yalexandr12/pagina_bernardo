@@ -15,7 +15,11 @@ body {
 header {
   background-color: #023E8A;
   /* Puedes ajustar otros estilos según tus preferencias */
-  padding: 10px; /* Agregar espacio interno si es necesario */
+  padding: 1px; /* Agregar espacio interno si es necesario */
+}
+
+.btn-primary {
+  transition: box-shadow 0.3s ease-in-out;
 }
 
 .contenido a {
@@ -42,7 +46,7 @@ section {
 /* Establecer tamaño de texto para dispositivos pequeños (menos de 576px) */
 @media (max-width: 575.98px) {
     .small-text {
-      font-size: 14px; /* Puedes ajustar el tamaño según tus preferencias */
+      font-size: 25px; /* Puedes ajustar el tamaño según tus preferencias */
     }
   }
 
@@ -67,7 +71,7 @@ section {
   }
 
   .small-text {
-    font-size: 12px; /* Tamaño de texto más pequeño */
+    font-size: 25 px; /* Tamaño de texto más pequeño */
     color: #555; /* Color de texto más claro */
   }
 
@@ -77,3 +81,4 @@ section {
     margin-left: 40px; /* Margen a la izquierda de la imagen */
     margin-right: 30px; /* Margen a la derecha de la imagen */
   }
+
